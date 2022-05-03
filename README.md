@@ -1,72 +1,49 @@
 
 <p align="center">
   <a href="https://public.tableau.com/views/TableauCovid-19ResultAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="https://user-images.githubusercontent.com/61747306/166453857-22734a57-adc9-49c6-82a2-56d082565bea.png" width="200"></a>
-
 <img src="https://user-images.githubusercontent.com/61747306/166453938-2c5a2fc3-3847-460f-a19f-a5f70f9a1301.png" width="200">
   
 </p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Build Status">
-<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="Build Status">
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau">
+<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="SQL SERVER">
+<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-  
+
 </p>
 <br><br>
 
 ## About Covid-19 Data Analysis Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This time I tried to analyze the covid-19 data, where I got the covid data from the website: 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Dataset link https://ourworldindata.org/covid-deaths
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+In this project there are several processes that I do such as:
 
-## Learning Laravel
+- Data exploration using Excel
+- Cleaning data using Query on SQL Server
+- And print some required table data into Excel
+- Then visualize using Tableau to find existing insights.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Sql Server is a Dbms Tools that can collaborate well with excel data in xlsx format. And Tableau can visualize Excel data quite well.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Insight That I found
 
-## Laravel Sponsors
+Tableau Visualization is [here](https://public.tableau.com/views/TableauCovid-19ResultAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- The percentage of deaths due to covid-19 in the world reaches 1.24% or as many as 61,336,800 people until 2022 in February.
+- The continent with the highest total mortality is in Europe with a total death toll of 10 million, and the lowest is on the African continent.
+- Among 5 countries, namely China, Brazil, Indonesia, United Kingdom, and the united states, the highest Covid-19 growth rate is in the United Kingdom, with a percentage of 29.32%. these 5 countries.
+- it is predicted that after February 2022 the growth of Covid-19 in Indonesia will slow down or may even decrease.
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<br><br>
+<h3 align="center">
+  Crafted By Damar Djati Wahyu Kemala
+</h3>
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Licensed under the [MIT license](https://opensource.org/licenses/MIT).
