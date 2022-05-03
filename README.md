@@ -1,13 +1,21 @@
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center">
+  <a href="https://public.tableau.com/views/TableauCovid-19ResultAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"><img src="https://user-images.githubusercontent.com/61747306/166453857-22734a57-adc9-49c6-82a2-56d082565bea.png" width="200"></a>
+
+<img src="https://user-images.githubusercontent.com/61747306/166453938-2c5a2fc3-3847-460f-a19f-a5f70f9a1301.png" width="200">
+  
+</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href=""><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Build Status"></a>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Build Status">
+<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="Build Status">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  
 </p>
+<br><br>
 
-## About Laravel
+## About Covid-19 Data Analysis Project
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
