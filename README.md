@@ -44,6 +44,4 @@ Tableau Visualization is [here](https://public.tableau.com/views/TableauCovid-19
   Crafted By Damar Djati Wahyu Kemala
 </h3>
 
-## License
-
-Licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**@Bahasa-Inggris**
